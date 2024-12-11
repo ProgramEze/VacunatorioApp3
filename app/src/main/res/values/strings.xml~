@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">VacunatorioApp3</string>
+    <string name="navigation_drawer_open">Abrir el menu</string>
+    <string name="navigation_drawer_close">Cerrar el menu</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Encabezado de la barra lateral</string>
+    <string name="action_settings">Configuración</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Matricula</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Logueate o registrate</string>
+    <string name="action_sign_in_short">Logueate</string>
+    <string name="welcome">"¡Bienvenido!"</string>
+    <string name="invalid_username">Matricula no valida</string>
+    <string name="invalid_password">La contraseña debe contener al menos 5 caracteres</string>
+    <string name="login_failed">"Login fallido"</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="olvidaste_tu_contrasenia">¿Olvidaste tu contraseña?</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado predeterminado: borde negro -->
+    <item android:drawable="@drawable/border_black" android:state_focused="false" />
+    <!-- Cuando el EditText tiene el foco: borde transparente -->
+    <item android:drawable="@drawable/border_transparent" android:state_focused="true" />
+</selector>

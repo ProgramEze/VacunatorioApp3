@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomDisabledTextInputEditText">
+        <item name="android:textColor">#000000</item> <!-- Cambia a tu color preferido -->
+    </style>
+
+    <!-- Estilo para los enlaces de texto -->
+    <style name="AppTheme.TextLink">
+        <item name="android:textColor">@color/colorAccent</item>
+        <!-- Otros atributos de estilo según sea necesario -->
+    </style>
+
+    <!-- Specific theme for LoginActivity -->
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Estilo para los títulos -->
+    <style name="PaymentTitleText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/text_margin_top</item>
+    </style>
+
+    <style name="Widget.AppCompat.TextView.Title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <!-- Agrega otros atributos según sea necesario -->
+    </style>
+
+    <style name="Widget.AppCompat.TextView.Body" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <!-- Agrega otros atributos según sea necesario -->
+    </style>
+
+    <style name="Theme.VacunatorioApp3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Personaliza tu tema principal -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="Theme.VacunatorioApp3.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <!-- Personaliza el overlay del AppBar -->
+    </style>
+
+    <style name="Theme.VacunatorioApp3.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+        <!-- Personaliza el overlay de los popups -->
+    </style>
+
+    <!-- Estilo para la información -->
+    <style name="PaymentInfoText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/text_margin_top</item>
+    </style>
+</resources>
